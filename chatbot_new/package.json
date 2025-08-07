@@ -1,0 +1,21 @@
+{
+  "name": "whatsapp-academic-bot",
+  "version": "1.0.0",
+  "description": "Bot académico vía WhatsApp con integración a PostgreSQL",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^6.6.0",
+    "dotenv": "^16.4.5",
+    "i18next": "^25.3.2",
+    "i18next-fs-backend": "^2.6.0",
+    "lodash": "^4.17.21",
+    "node-cache": "^5.1.2",
+    "pg": "^8.11.3",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
